@@ -12,3 +12,9 @@ describe("add", function () {
     assert.strictEqual(formatNaira(2000), "₦2,000");
   });
 });
+
+describe("add", function () {
+  it("should return a formatted naira equivalent when you pass in more than a number", function () {
+    assert.strictEqual(formatNaira(2000, 3000), "₦5,000");
+  });
+});
