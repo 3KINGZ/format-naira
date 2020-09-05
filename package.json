@@ -1,6 +1,6 @@
 {
   "name": "format-to-naira",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "a package that format number values to naira currency",
   "main": "index.js",
   "scripts": {
@@ -18,11 +18,13 @@
   "keywords": [
     "currency",
     "format",
-    "money"
+    "money",
+    "naira"
   ],
   "author": "victor kenneth",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "mocha": "^8.1.3"
   }
 }
