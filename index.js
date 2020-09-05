@@ -3,7 +3,7 @@ function formatNaira() {
   let sum = 0;
   let value;
   if (arguments.length === 0) {
-    return NaN;
+    return formatNaira(0);
   }
   for (let i = 0; i < arguments.length; i++) {
     sum += arguments[i];
