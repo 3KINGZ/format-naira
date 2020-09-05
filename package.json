@@ -1,0 +1,16 @@
+{
+  "name": "format-to-naira",
+  "version": "1.0.0",
+  "description": "a package that format number values to naira currency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "currency",
+    "format",
+    "money"
+  ],
+  "author": "victor kenneth",
+  "license": "MIT"
+}
