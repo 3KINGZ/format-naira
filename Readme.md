@@ -13,10 +13,16 @@ npm install format-naira
 ## Usage
 
 ```javascript
-const formatNaira = require(format - naira);
+const formatNaira = require(format - naira); //commmonJS import
+//
+import formatNaira from "format-to-naira"; //es6 imports
 
-formatNaira(1000); //returns ₦1,000
-formatNaira(2000, 3000); //returns ₦5,000
+const nairaValue = formatNaira(1000); 
+console.log(nairaValue) //₦1,000
+
+//you can also format more than one value it will return a sum in naira 
+const total = formatNaira(2000, 3000); 
+console.log(total) //₦5,000
 ```
 
 ## Contributing
